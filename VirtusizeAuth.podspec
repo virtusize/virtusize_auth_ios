@@ -11,6 +11,5 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/virtusize/virtusize_auth_ios.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "VirtusizeAuth.xcframework"
-  spec.dependency "VirtusizeCore", "~> 0.0.1"
 
 end
