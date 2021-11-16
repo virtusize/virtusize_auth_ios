@@ -10,15 +10,15 @@
 		</data>
 		<key>Frameworks/VirtusizeCore.framework/VirtusizeCore</key>
 		<data>
-		VrwXLNtIwIPejouBgE5bWRL0mhI=
+		X8yj81CAtLBFSwUK/Nb6Ng4GdjU=
 		</data>
 		<key>Frameworks/VirtusizeCore.framework/VirtusizeCore.podspec</key>
 		<data>
-		uR80bzTU/eXqx8bvR+k4q/A9gjM=
+		9S7OtUAv1DtzgYtIgK3kb3v9fB8=
 		</data>
 		<key>Frameworks/VirtusizeCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		9+aWrPdRg4ArapPtGSbDBAH5mJM=
+		fPUJllhx2qIGFLxRoop1gFJip1Q=
 		</data>
 		<key>Frameworks/VirtusizeCore.framework/en.lproj/VirtusizeLocalizable.strings</key>
 		<dict>
@@ -137,7 +137,7 @@
 		</data>
 		<key>README.md</key>
 		<data>
-		jZNr/TCq72J6kxNSMdb+EYmeSxs=
+		J8OJMXyNEWubmKPE1uBkitpz6V8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -157,33 +157,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VrwXLNtIwIPejouBgE5bWRL0mhI=
+			X8yj81CAtLBFSwUK/Nb6Ng4GdjU=
 			</data>
 			<key>hash2</key>
 			<data>
-			CakOrk/6oSaa+SL8vlsXoEk4l5m/Ef3oBgO4pxUqexU=
+			Smiw9Sys4KpTYVCFtlqxnoKp6mPMSeWnZ653Wr2QVD4=
 			</data>
 		</dict>
 		<key>Frameworks/VirtusizeCore.framework/VirtusizeCore.podspec</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uR80bzTU/eXqx8bvR+k4q/A9gjM=
+			9S7OtUAv1DtzgYtIgK3kb3v9fB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			d/pK60mw8wvBbz8/D8yuQFH3wL7FrAR1ZfeExJK/KQY=
+			CWZ+2i6TLkhb9nODp3dWj6Ajnuqv4e37o5+KHBTtw9Y=
 			</data>
 		</dict>
 		<key>Frameworks/VirtusizeCore.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9+aWrPdRg4ArapPtGSbDBAH5mJM=
+			fPUJllhx2qIGFLxRoop1gFJip1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			ap0QVdSEY5wi60cSVZ3Fl9S8vVSD36qwvTaQ+lkKXn8=
+			qp2WdiYxEtLL9L2pL7LNERK1+sj1Sl5lEjM5B7qSKWs=
 			</data>
 		</dict>
 		<key>Frameworks/VirtusizeCore.framework/en.lproj/VirtusizeLocalizable.strings</key>
@@ -460,11 +460,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jZNr/TCq72J6kxNSMdb+EYmeSxs=
+			J8OJMXyNEWubmKPE1uBkitpz6V8=
 			</data>
 			<key>hash2</key>
 			<data>
-			LBLNbrTqzZ4y4v8LWtngGROHaBYkVJwctGU6lY4j9b4=
+			ZFdwcYWuzcgapXicC3ExJdHxOHiFd0GySTI9Bmtj6X8=
 			</data>
 		</dict>
 	</dict>
