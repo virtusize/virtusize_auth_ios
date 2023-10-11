@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "VirtusizeAuth"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.3"
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
   spec.summary      = "Virtusize Auth SDK for iOS"
   spec.homepage     = "https://www.virtusize.com/"
