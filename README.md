@@ -34,7 +34,7 @@ platform :ios, '10.3'
 use_frameworks!
 
 target '<your-target-name>' do
-pod 'VirtusizeAuth', '~> 1.0.3'
+pod 'VirtusizeAuth', '~> 1.0.4'
 end
 ```
 
@@ -48,7 +48,7 @@ $ pod install
 #### Swift Package Manager
 
 1. In Xcode, select **File** > **Swift Packages** > **Add Package Dependency...** and enter `https://github.com/virtusize/virtusize_auth_ios.git` as the repository URL.
-2. Select a minimum version of `1.0.3`
+2. Select a minimum version of `1.0.4`
 3. Click **Next**
 
 
