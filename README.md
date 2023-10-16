@@ -8,7 +8,7 @@ The Virtusize Auth SDK for iOS is a closed-source library that handles the SNS a
 
 ## Requirements
 
-- iOS 12.0+
+- iOS 13.0+
 - Xcode 12+
 - Swift 5.0+
 
@@ -30,11 +30,11 @@ To integrate Virtusize SDK into your Xcode project using CocoaPods, specify it i
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.3'
+platform :ios, '13.0'
 use_frameworks!
 
 target '<your-target-name>' do
-pod 'VirtusizeAuth', '~> 1.0.3'
+pod 'VirtusizeAuth', '~> 1.1.0'
 end
 ```
 
@@ -48,7 +48,7 @@ $ pod install
 #### Swift Package Manager
 
 1. In Xcode, select **File** > **Swift Packages** > **Add Package Dependency...** and enter `https://github.com/virtusize/virtusize_auth_ios.git` as the repository URL.
-2. Select a minimum version of `1.0.3`
+2. Select a minimum version of `1.1.0`
 3. Click **Next**
 
 
