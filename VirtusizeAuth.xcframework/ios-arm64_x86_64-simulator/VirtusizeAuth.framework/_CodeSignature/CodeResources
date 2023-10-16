@@ -6,59 +6,59 @@
 	<dict>
 		<key>Headers/VirtusizeAuth-Swift.h</key>
 		<data>
-		3diTFrba+sSaH2poLGGcLHlgpvM=
+		9kLvB1dtt5VcyhPoiQ8pqYxwNIc=
 		</data>
-		<key>Headers/VirtusizeAuth.h</key>
+		<key>Headers/VirtusizeAuthorization.h</key>
 		<data>
 		af67wL/xATDU9FJT3TQlgphm8oc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mJXnMA6qjMf2zPgcGcS7mmNToHU=
+		xsjGAmelusiMV5HVjdUouvpnIYw=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MzcBgc+9Zj7Yn+ORwO3Q8x3T93o=
+		QnKia4zUrFCYdMlnOfbxQy4ln2c=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bQrTPVY+POesEHpyMDH4qYvidJI=
+		aFzf2wLTGSNrmflHJA6+OMxpKL8=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R4klH/P2v7OCft7rDpD1VNfFqI0=
+		95AOBesMUnHWE0k1v5gwQC/bWV4=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bQrTPVY+POesEHpyMDH4qYvidJI=
+		aFzf2wLTGSNrmflHJA6+OMxpKL8=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		96wug/851kUv3+llfMkp8LmL5UM=
+		XuFXdJHRfuJAhKqNNBz1CoLO910=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MzcBgc+9Zj7Yn+ORwO3Q8x3T93o=
+		QnKia4zUrFCYdMlnOfbxQy4ln2c=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		C5xeiQJ1EXiaeFFnrVlmsmM2Bec=
+		3x+NUeKjZf9FNbGt3jxbClOdssc=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mtBPQPy4ZmkITZl5vsh46xOIvNg=
+		D9KTgkLRo+c6DtdyT2n2lA0P+ug=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		C5xeiQJ1EXiaeFFnrVlmsmM2Bec=
+		3x+NUeKjZf9FNbGt3jxbClOdssc=
 		</data>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FLY9Zcqfxe7A36oZ071X0Yhd48Q=
+		fCO2qPCMK4SGlTfRgoDAX60MdeE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		5DLEr5C/9Q9f695vJHrrUFEbswo=
+		NCvOP1QtPJ82KhWnNyHO/g9c4K8=
 		</data>
 		<key>README.md</key>
 		<data>
@@ -71,10 +71,10 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zyQsTZbiY4nG3iuQlBo6dLAagDeS7jXXxPaB5Vnzrv8=
+			KqMgHay4EADvEh7UXsOnklLBv08kaVHNMANiKFLiP2g=
 			</data>
 		</dict>
-		<key>Headers/VirtusizeAuth.h</key>
+		<key>Headers/VirtusizeAuthorization.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -85,77 +85,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mr17vjxnza6t41dPjTJwI8kV9Bh8AsVBzbRf5njb6A0=
+			NlFTirAQMJR1KcIHvDmb1bCO4OPU5j9gZLBGLktqdpQ=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			50dTVvQL0s+razP+DzPx/N3UA6rrYFwCpMn4DvW6boU=
+			xE8SDStw1eIlZvQ8FdEhf2118uONhnZpvTgoodqxE/Y=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGTBCvZ5KipxlbNYcUuXPeFcAafC5EMFh9DM87UxUZo=
+			b4LCdv27Ru73g476a3bDC+kRYpe3+qBRaoP30LlUZBc=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			50dTVvQL0s+razP+DzPx/N3UA6rrYFwCpMn4DvW6boU=
+			xE8SDStw1eIlZvQ8FdEhf2118uONhnZpvTgoodqxE/Y=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ki0tKtBs+JGTgIr0JzDUW509gcpLa9+rMP38MnogtQs=
+			G0zasLbz8Mu7018nHBhz2xFb4xzz/fy1PdYpmMoi2hU=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mr17vjxnza6t41dPjTJwI8kV9Bh8AsVBzbRf5njb6A0=
+			NlFTirAQMJR1KcIHvDmb1bCO4OPU5j9gZLBGLktqdpQ=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NrxDWe5Xy3FEbhToxoqGsfpTBCia6KRMRkCDA5KtNtM=
+			4AxMbhGbbXMPzPbrUNZi8og+7t6gSEofsxCNw3co2oM=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cd7r7iBueZlRYdU+PISbLriRoiUArlYf2YhGehL2Mzk=
+			of4WRTcTyZmP2F/HeFQ01aefFKSoLOR2/SS03zgrEYw=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NrxDWe5Xy3FEbhToxoqGsfpTBCia6KRMRkCDA5KtNtM=
+			4AxMbhGbbXMPzPbrUNZi8og+7t6gSEofsxCNw3co2oM=
 			</data>
 		</dict>
 		<key>Modules/VirtusizeAuth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Qu4c4/YiAuZIMNbORprbkWz677OG1jT/WS4dn/Grt4=
+			NWWYDW6UbmwLjmK3Vmb1fvyQ3r6b5HlW6S78UqQcmq8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g+O/n9+qFPyPIUz6P+D/pppttFJA69huoz5QUBdy8T4=
+			ifklNztAmV6F77Aj8A0PhGajmeZU8AFhKSgH2OQa7ao=
 			</data>
 		</dict>
 		<key>README.md</key>

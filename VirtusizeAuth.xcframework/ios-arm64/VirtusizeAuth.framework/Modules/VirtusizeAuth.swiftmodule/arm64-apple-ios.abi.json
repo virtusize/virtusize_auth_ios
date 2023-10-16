@@ -166,7 +166,6 @@
             "mangledName": "$s13VirtusizeAuth0A7WebViewC10uiDelegateSo12WKUIDelegate_pSgvp",
             "moduleName": "VirtusizeAuth",
             "overriding": true,
-            "isOpen": true,
             "objc_name": "UIDelegate",
             "declAttributes": [
               "Dynamic",
@@ -202,7 +201,6 @@
                 "moduleName": "VirtusizeAuth",
                 "overriding": true,
                 "implicit": true,
-                "isOpen": true,
                 "objc_name": "UIDelegate",
                 "declAttributes": [
                   "Dynamic",
@@ -241,7 +239,6 @@
                 "moduleName": "VirtusizeAuth",
                 "overriding": true,
                 "implicit": true,
-                "isOpen": true,
                 "objc_name": "setUIDelegate:",
                 "declAttributes": [
                   "Dynamic",
@@ -276,7 +273,6 @@
             "mangledName": "$s13VirtusizeAuth0A7WebViewC18navigationDelegateSo012WKNavigationF0_pSgvp",
             "moduleName": "VirtusizeAuth",
             "overriding": true,
-            "isOpen": true,
             "objc_name": "navigationDelegate",
             "declAttributes": [
               "Dynamic",
@@ -312,7 +308,6 @@
                 "moduleName": "VirtusizeAuth",
                 "overriding": true,
                 "implicit": true,
-                "isOpen": true,
                 "objc_name": "navigationDelegate",
                 "declAttributes": [
                   "Dynamic",
@@ -351,7 +346,6 @@
                 "moduleName": "VirtusizeAuth",
                 "overriding": true,
                 "implicit": true,
-                "isOpen": true,
                 "objc_name": "setNavigationDelegate:",
                 "declAttributes": [
                   "Dynamic",
@@ -792,141 +786,6 @@
           {
             "kind": "Function",
             "name": "webView",
-            "printedName": "webView(_:shouldPreviewElement:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKPreviewElementInfo",
-                "printedName": "WebKit.WKPreviewElementInfo",
-                "usr": "c:objc(cs)WKPreviewElementInfo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@VirtusizeAuth@objc(cs)VirtusizeWebView(im)webView:shouldPreviewElement:",
-            "mangledName": "$s13VirtusizeAuth0A7WebViewC03webD0_20shouldPreviewElementSbSo05WKWebD0C_So09WKPreviewH4InfoCtF",
-            "moduleName": "VirtusizeAuth",
-            "objc_name": "webView:shouldPreviewElement:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:previewingViewControllerForElement:defaultActions:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKPreviewElementInfo",
-                "printedName": "WebKit.WKPreviewElementInfo",
-                "usr": "c:objc(cs)WKPreviewElementInfo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[WebKit.WKPreviewActionItem]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKPreviewActionItem",
-                    "printedName": "WebKit.WKPreviewActionItem",
-                    "usr": "c:objc(pl)WKPreviewActionItem"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@VirtusizeAuth@objc(cs)VirtusizeWebView(im)webView:previewingViewControllerForElement:defaultActions:",
-            "mangledName": "$s13VirtusizeAuth0A7WebViewC03webD0_010previewingD20ControllerForElement14defaultActionsSo06UIViewG0CSgSo05WKWebD0C_So09WKPreviewI4InfoCSaySo0N10ActionItem_pGtF",
-            "moduleName": "VirtusizeAuth",
-            "objc_name": "webView:previewingViewControllerForElement:defaultActions:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:commitPreviewingViewController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@VirtusizeAuth@objc(cs)VirtusizeWebView(im)webView:commitPreviewingViewController:",
-            "mangledName": "$s13VirtusizeAuth0A7WebViewC03webD0_016commitPreviewingD10ControllerySo05WKWebD0C_So06UIViewH0CtF",
-            "moduleName": "VirtusizeAuth",
-            "objc_name": "webView:commitPreviewingViewController:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
             "printedName": "webView(_:contextMenuConfigurationForElement:completionHandler:)",
             "children": [
               {
@@ -984,7 +843,8 @@
               "ObjC",
               "Custom",
               "AccessControl",
-              "Available"
+              "Available",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -1749,7 +1609,6 @@
         "usr": "c:@M@VirtusizeAuth@objc(cs)VirtusizeWebView",
         "mangledName": "$s13VirtusizeAuth0A7WebViewC",
         "moduleName": "VirtusizeAuth",
-        "isOpen": true,
         "declAttributes": [
           "Custom",
           "AccessControl",
@@ -1864,8 +1723,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VirtusizeAuth",
-        "printedName": "VirtusizeAuth",
+        "name": "VirtusizeAuthorization",
+        "printedName": "VirtusizeAuthorization",
         "children": [
           {
             "kind": "Function",
@@ -1906,8 +1765,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13VirtusizeAuthAAC12isSNSAuthURL14viewController7webView3urlSbSo06UIViewG0C_So05WKWebI0CSg10Foundation0E0VtFZ",
-            "mangledName": "$s13VirtusizeAuthAAC12isSNSAuthURL14viewController7webView3urlSbSo06UIViewG0C_So05WKWebI0CSg10Foundation0E0VtFZ",
+            "usr": "s:13VirtusizeAuth0A13AuthorizationC12isSNSAuthURL14viewController7webView3urlSbSo06UIViewH0C_So05WKWebJ0CSg10Foundation0F0VtFZ",
+            "mangledName": "$s13VirtusizeAuth0A13AuthorizationC12isSNSAuthURL14viewController7webView3urlSbSo06UIViewH0C_So05WKWebJ0CSg10Foundation0F0VtFZ",
             "moduleName": "VirtusizeAuth",
             "static": true,
             "declAttributes": [
@@ -1941,8 +1800,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13VirtusizeAuthAAC14setAppBundleIdyySSSgFZ",
-            "mangledName": "$s13VirtusizeAuthAAC14setAppBundleIdyySSSgFZ",
+            "usr": "s:13VirtusizeAuth0A13AuthorizationC14setAppBundleIdyySSSgFZ",
+            "mangledName": "$s13VirtusizeAuth0A13AuthorizationC14setAppBundleIdyySSSgFZ",
             "moduleName": "VirtusizeAuth",
             "static": true,
             "declAttributes": [
@@ -1952,8 +1811,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:13VirtusizeAuthAAC",
-        "mangledName": "$s13VirtusizeAuthAAC",
+        "usr": "s:13VirtusizeAuth0A13AuthorizationC",
+        "mangledName": "$s13VirtusizeAuth0A13AuthorizationC",
         "moduleName": "VirtusizeAuth",
         "declAttributes": [
           "AccessControl"
@@ -2098,126 +1957,119 @@
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1435,
+      "offset": 1437,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1690,
+      "offset": 1692,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1308,
+      "offset": 1310,
       "length": 16,
       "value": "\"VirtusizeAuth.VirtusizeWebView\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3485,
+      "offset": 3496,
       "length": 49,
       "value": "\"CriOS\/56.0.2924.75 Mobile\/14E5239e Safari\/602.1\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3749,
+      "offset": 3760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5166,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5816,
+      "offset": 5177,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7740,
+      "offset": 7792,
       "length": 14,
       "value": "\"surveymonkey\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7774,
+      "offset": 7826,
       "length": 11,
       "value": "\"virtusize\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7804,
+      "offset": 7856,
       "length": 9,
       "value": "\"privacy\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7979,
+      "offset": 8031,
       "length": 11,
       "value": "\"virtusize\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8010,
+      "offset": 8062,
       "length": 10,
       "value": "\"facebook\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8039,
+      "offset": 8091,
       "length": 8,
       "value": "\"google\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8067,
+      "offset": 8119,
       "length": 7,
       "value": "\"oauth\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8238,
+      "offset": 8290,
       "length": 11,
       "value": "\"virtusize\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8268,
+      "offset": 8320,
       "length": 17,
       "value": "\"fit-illustrator\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "StringLiteral",
-      "offset": 10748,
+      "offset": 10800,
       "length": 36,
       "value": "\"window.virtusizeSNSEnabled = true;\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12006,
+      "offset": 12058,
       "length": 5,
       "value": "false"
     },
@@ -2264,142 +2116,142 @@
       "value": "\"picture\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 1323,
+      "offset": 1332,
       "length": 8,
       "value": "\"app_id\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 1367,
+      "offset": 1376,
       "length": 14,
       "value": "\"redirect_uri\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 2700,
+      "offset": 2760,
       "length": 35,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 2733,
+      "offset": 2793,
       "length": 1,
       "value": "\"=\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 2749,
+      "offset": 2809,
       "length": 3,
       "value": "\"&\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 2767,
+      "offset": 2827,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 2860,
+      "offset": 2920,
       "length": 12,
       "value": "\"virtusize.\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
+      "offset": 2946,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 2904,
+      "offset": 2964,
       "length": 5,
       "value": "\"com\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 2997,
+      "offset": 3057,
       "length": 12,
       "value": "\"sns-proxy\/\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 3023,
+      "offset": 3083,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 3041,
+      "offset": 3101,
       "length": 9,
       "value": "\"staging\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 3194,
+      "offset": 3254,
       "length": 73,
       "value": "\"https:\/\/static.api.virtusize.\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 3233,
+      "offset": 3293,
       "length": 1,
       "value": "\"\/a\/sns-proxy\/\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 3252,
+      "offset": 3312,
       "length": 1,
       "value": "\"\/sns-auth.html\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "BooleanLiteral",
-      "offset": 3695,
+      "offset": 3755,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "BooleanLiteral",
-      "offset": 3712,
+      "offset": 3772,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "BooleanLiteral",
-      "offset": 3735,
+      "offset": 3795,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 4202,
+      "offset": 4262,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
-      "offset": 4265,
+      "offset": 4325,
       "length": 2,
       "value": "\"\""
     },
