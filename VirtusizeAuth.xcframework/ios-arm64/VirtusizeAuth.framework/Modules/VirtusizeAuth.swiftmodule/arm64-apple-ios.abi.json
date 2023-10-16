@@ -2116,140 +2116,140 @@
       "value": "\"picture\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 1332,
       "length": 8,
       "value": "\"app_id\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 1376,
       "length": 14,
       "value": "\"redirect_uri\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 2760,
       "length": 35,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 2793,
       "length": 1,
       "value": "\"=\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 2809,
       "length": 3,
       "value": "\"&\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 2827,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 2920,
       "length": 12,
       "value": "\"virtusize.\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 2946,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 2964,
       "length": 5,
       "value": "\"com\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 3057,
       "length": 12,
       "value": "\"sns-proxy\/\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 3083,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 3101,
       "length": 9,
       "value": "\"staging\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 3254,
       "length": 73,
       "value": "\"https:\/\/static.api.virtusize.\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 3293,
       "length": 1,
       "value": "\"\/a\/sns-proxy\/\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 3312,
       "length": 1,
       "value": "\"\/sns-auth.html\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "BooleanLiteral",
       "offset": 3755,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "BooleanLiteral",
       "offset": 3772,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "BooleanLiteral",
       "offset": 3795,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 4262,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuth.swift",
+      "filePath": "\/Users\/admin\/Documents\/GitHub\/virtusize-auth-ios\/VirtusizeAuth\/VirtusizeAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 4325,
       "length": 2,
