@@ -60,6 +60,10 @@
 		<data>
 		NCvOP1QtPJ82KhWnNyHO/g9c4K8=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		AeqYkeC44K5cbYwNkY4lOgbAAE4=
+		</data>
 		<key>README.md</key>
 		<data>
 		MHmfZj6dbjLacXPGvTBzUnpl52U=
@@ -156,6 +160,13 @@
 			<key>hash2</key>
 			<data>
 			ifklNztAmV6F77Aj8A0PhGajmeZU8AFhKSgH2OQa7ao=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uy07NOWVdA+C7g4SO3/coMOdSl7IHPkGlmCI8qwvsko=
 			</data>
 		</dict>
 		<key>README.md</key>
