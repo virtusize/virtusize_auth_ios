@@ -135,8 +135,14 @@ To enable Virtusize SNS login on the web version of Virtusize integration inside
 
 ##### Step 1: Execute JavaScript code in your WKWebView to enable SNS buttons in Virtusize
 
-```
+```swift
 yourWebView.evaluateJavaScript("window.virtusizeSNSEnabled = true;")
+```
+
+##### Step 2: Set `javaScriptCanOpenWindowsAutomatically` to true
+
+```swift
+yourWebView.configuration.preferences.javaScriptCanOpenWindowsAutomatically = true
 ```
 
 ##### Step 2: Make sure your view controller confirms the `WKUIDelegate` and implement the code below
@@ -148,7 +154,8 @@ class YourViewController: UIViewController {
 
 	override func viewDidLoad() {
             super.viewDidLoad()
-            // ... other code
+            
+            // ... the other code
 
             yourWebView.uiDelegate = self
 	}
@@ -170,7 +177,7 @@ extension YourViewController: WKUIDelegate {
 			return nil
 		}
 
-		if VirtusizeAuth.isSNSAuthURL(viewController: self, webView: webView, url: url) {
+		if VirtusizeAuthorization.isSNSAuthURL(viewController: self, webView: webView, url: url) {
 			return nil
 		}
 
@@ -188,7 +195,7 @@ extension YourViewController: WKUIDelegate {
 			return popupWebView
 		}
     
-    // The rest of your code ... 
+        // The rest of your code ... 
 
 		return nil
 	}
