@@ -133,16 +133,33 @@ To enable Virtusize SNS login on the web version of Virtusize integration inside
 
 #### Method 2: Use WKWebView
 
-##### Step 1: Execute JavaScript code in your WKWebView to enable SNS buttons in Virtusize
-
-```swift
-yourWebView.evaluateJavaScript("window.virtusizeSNSEnabled = true;")
-```
-
-##### Step 2: Set `javaScriptCanOpenWindowsAutomatically` to true
+##### Step 1: Set `javaScriptCanOpenWindowsAutomatically` to true
 
 ```swift
 yourWebView.configuration.preferences.javaScriptCanOpenWindowsAutomatically = true
+```
+
+##### Step 2: Make sure your view controller confirms the `WKNavigationDelegate` and implement the code below to enable SNS buttons in Virtusize
+
+```swift
+class YourViewController: UIViewController {
+
+    private var yourWebView: WKWebView!
+
+    override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            // ... the other code
+
+            yourWebView.navigationDelegate = self
+    }
+}
+
+extension ViewController: WKNavigationDelegate {
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        webView.evaluateJavaScript("window.virtusizeSNSEnabled = true;")
+    }
+}
 ```
 
 ##### Step 3: Make sure your view controller confirms the `WKUIDelegate` and implement the code below
@@ -182,6 +199,9 @@ extension YourViewController: WKUIDelegate {
 		}
 
 		if navigationAction.targetFrame == nil && VirtusizeURLCheck.isLinkFromSNSAuth(url: url.absoluteString) {
+            // By default, the Google sign-in page shows a 403 error: disallowed_useragent if you are visiting it within a web view.
+            // By setting up the user agent, Google recognizes the web view as a Safari browser
+            configuration.applicationNameForUserAgent = "CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1"      
 			let popupWebView = WKWebView(frame: webView.frame, configuration: configuration)
 			popupWebView.uiDelegate = self
 			webView.addSubview(popupWebView)
