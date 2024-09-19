@@ -145,7 +145,7 @@ yourWebView.evaluateJavaScript("window.virtusizeSNSEnabled = true;")
 yourWebView.configuration.preferences.javaScriptCanOpenWindowsAutomatically = true
 ```
 
-##### Step 2: Make sure your view controller confirms the `WKUIDelegate` and implement the code below
+##### Step 3: Make sure your view controller confirms the `WKUIDelegate` and implement the code below
 
 ```swift
 class YourViewController: UIViewController {
