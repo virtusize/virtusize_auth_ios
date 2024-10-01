@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = "VirtusizeAuth/VirtusizeAuth.xcframework"
   spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
-  spec.resource_bundles = { "VirtusizeAuthorization" => ["VirtusizeAuth/Resources/PrivacyInfo.xcprivacy"] }
+  spec.resource_bundles = { "#{spec.module_name}Resources" => ["VirtusizeAuth/Resources/PrivacyInfo.xcprivacy"] }
 end
