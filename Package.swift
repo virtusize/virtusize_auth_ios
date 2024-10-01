@@ -16,12 +16,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VirtusizeAuth",
-            path: "VirtusizeAuth/VirtusizeAuth.xcframework"
+            path: "VirtusizeAuth.xcframework"
         ),
         .target(
             name: "VirtusizeAuthWrapper",
             dependencies: ["VirtusizeAuth"],
-            path: "VirtusizeAuth",
+            path: "VirtusizeAuthWrapper",
             resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
         )
     ]
