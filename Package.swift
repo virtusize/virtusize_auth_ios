@@ -12,15 +12,13 @@ let package = Package(
             targets: ["VirtusizeAuthWrapper"]
         ),
     ],
-    dependencies: [
-        .package(url: "https://github.com/virtusize/integration_ios.git", from: "2.5.10"),
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "VirtusizeAuthWrapper",
-            dependencies: ["VirtusizeAuthXCFramework", .product(name: "VirtusizeCore", package: "integration_ios")],
+            dependencies: ["VirtusizeAuthXCFramework"],
             path: "VirtusizeAuthWrapper",
-            resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
+            resources: [.process("Resources/PrivacyInfo.xcprivacy")]
         ),
         .binaryTarget(
             name: "VirtusizeAuthXCFramework",
