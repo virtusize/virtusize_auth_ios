@@ -9,18 +9,18 @@ let package = Package(
     products: [
         .library(
             name: "VirtusizeAuth",
-            targets: ["VirtusizeAuth"]
+            targets: ["VirtusizeAuthXCFramework"]
         ),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "VirtusizeAuth",
+            name: "VirtusizeAuthXCFramework",
             path: "VirtusizeAuth.xcframework"
         ),
         .target(
             name: "VirtusizeAuthWrapper",
-            dependencies: ["VirtusizeAuth"],
+            dependencies: ["VirtusizeAuthXCFramework"],
             path: "VirtusizeAuthWrapper",
             resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
         )
