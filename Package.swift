@@ -9,20 +9,22 @@ let package = Package(
     products: [
         .library(
             name: "VirtusizeAuth",
-            targets: ["VirtusizeAuthXCFramework"]
+            targets: ["VirtusizeAuthWrapper"]
         ),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/virtusize/integration_ios.git", from: "2.5.10"),
+    ],
     targets: [
+        .target(
+            name: "VirtusizeAuthWrapper",
+            dependencies: ["VirtusizeAuthXCFramework", .product(name: "VirtusizeCore", package: "integration_ios")],
+            path: "VirtusizeAuthWrapper",
+            resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
+        ),
         .binaryTarget(
             name: "VirtusizeAuthXCFramework",
             path: "VirtusizeAuth.xcframework"
-        ),
-        .target(
-            name: "VirtusizeAuthWrapper",
-            dependencies: ["VirtusizeAuthXCFramework"],
-            path: "VirtusizeAuthWrapper",
-            resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
         )
     ]
 )
