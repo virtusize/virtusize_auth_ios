@@ -18,7 +18,7 @@ let package = Package(
             name: "VirtusizeAuthWrapper",
             dependencies: ["VirtusizeAuthXCFramework"],
             path: "VirtusizeAuthWrapper",
-            resources: [.process("Resources/PrivacyInfo.xcprivacy")]
+            resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
         ),
         .binaryTarget(
             name: "VirtusizeAuthXCFramework",
