@@ -1,5 +1,9 @@
 # Virtusize Auth SDK for iOS
 
+![Cocoapods Version](https://img.shields.io/cocoapods/v/Virtusize)
+
+
+
 ## Description
 
 The Virtusize Auth SDK for iOS is a closed-source library that handles the SNS authentication process for our [Virtusize iOS Integration](https://github.com/virtusize/integration_ios).
