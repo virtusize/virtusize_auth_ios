@@ -1,6 +1,6 @@
 # Virtusize Auth SDK for iOS
 
-![Cocoapods Version](https://img.shields.io/cocoapods/v/Virtusize)
+![Cocoapods Version](https://img.shields.io/cocoapods/v/VirtusizeAuth)
 
 
 
