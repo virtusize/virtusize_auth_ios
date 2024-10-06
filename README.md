@@ -1,6 +1,6 @@
 # Virtusize Auth SDK for iOS
 
-![Cocoapods Version](https://img.shields.io/cocoapods/v/VirtusizeAuth)
+[![Cocoapods Version](https://img.shields.io/cocoapods/v/VirtusizeAuth)](https://cocoapods.org/pods/VirtusizeAuth)
 
 
 
@@ -77,12 +77,12 @@ In the App Delegate's `application(_:didFinishLaunchingWithOptions:)` method, ca
 
 ```
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-	// Virtusize initialization omitted for brevity
-
-	// Set the app bundle ID
-	VirtusizeAuth.setAppBundleId("com.your-company.your-app")
-
-	return true
+    // Virtusize initialization omitted for brevity
+    
+    // Set the app bundle ID
+    VirtusizeAuth.setAppBundleId("com.your-company.your-app")
+    
+    return true
 }
 ```
 
@@ -147,15 +147,15 @@ yourWebView.configuration.preferences.javaScriptCanOpenWindowsAutomatically = tr
 
 ```swift
 class YourViewController: UIViewController {
-
+    
     private var yourWebView: WKWebView!
-
+    
     override func viewDidLoad() {
-            super.viewDidLoad()
-            
-            // ... the other code
-
-            yourWebView.navigationDelegate = self
+        super.viewDidLoad()
+        
+        // ... the other code
+        
+        yourWebView.navigationDelegate = self
     }
 }
 
@@ -170,62 +170,62 @@ extension ViewController: WKNavigationDelegate {
 
 ```swift
 class YourViewController: UIViewController {
-
-	private var yourWebView: WKWebView!
-
-	override func viewDidLoad() {
-            super.viewDidLoad()
-            
-            // ... the other code
-
-            yourWebView.uiDelegate = self
-	}
+    
+    private var yourWebView: WKWebView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // ... the other code
+        
+        yourWebView.uiDelegate = self
+    }
 }
 
 extension YourViewController: WKUIDelegate {
-	func webView(
-		_ webView: WKWebView,
-		createWebViewWith configuration: WKWebViewConfiguration,
-		for navigationAction: WKNavigationAction,
-		windowFeatures: WKWindowFeatures
-	) -> WKWebView? {
-		guard let url = navigationAction.request.url else {
-			return nil
-		}
-
-		if VirtusizeURLCheck.isExternalLinkFromVirtusize(url: url.absoluteString) {
-			UIApplication.shared.open(url, options: [:])
-			return nil
-		}
-
-		if VirtusizeAuthorization.isSNSAuthURL(viewController: self, webView: webView, url: url) {
-			return nil
-		}
-
-		if navigationAction.targetFrame == nil && VirtusizeURLCheck.isLinkFromSNSAuth(url: url.absoluteString) {
+    func webView(
+        _ webView: WKWebView,
+        createWebViewWith configuration: WKWebViewConfiguration,
+        for navigationAction: WKNavigationAction,
+        windowFeatures: WKWindowFeatures
+    ) -> WKWebView? {
+        guard let url = navigationAction.request.url else {
+            return nil
+        }
+        
+        if VirtusizeURLCheck.isExternalLinkFromVirtusize(url: url.absoluteString) {
+            UIApplication.shared.open(url, options: [:])
+            return nil
+        }
+        
+        if VirtusizeAuthorization.isSNSAuthURL(viewController: self, webView: webView, url: url) {
+            return nil
+        }
+        
+        if navigationAction.targetFrame == nil && VirtusizeURLCheck.isLinkFromSNSAuth(url: url.absoluteString) {
             // By default, the Google sign-in page shows a 403 error: disallowed_useragent if you are visiting it within a web view.
             // By setting up the user agent, Google recognizes the web view as a Safari browser
-            configuration.applicationNameForUserAgent = "CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1"      
-			let popupWebView = WKWebView(frame: webView.frame, configuration: configuration)
-			popupWebView.uiDelegate = self
-			webView.addSubview(popupWebView)
-			popupWebView.translatesAutoresizingMaskIntoConstraints = false
-			NSLayoutConstraint.activate([
-				popupWebView.topAnchor.constraint(equalTo: webView.topAnchor),
-				popupWebView.leadingAnchor.constraint(equalTo: webView.leadingAnchor),
-				popupWebView.trailingAnchor.constraint(equalTo: webView.trailingAnchor),
-				popupWebView.bottomAnchor.constraint(equalTo: webView.bottomAnchor)
-			])
-			return popupWebView
-		}
+            configuration.applicationNameForUserAgent = "CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1"
+            let popupWebView = WKWebView(frame: webView.frame, configuration: configuration)
+            popupWebView.uiDelegate = self
+            webView.addSubview(popupWebView)
+            popupWebView.translatesAutoresizingMaskIntoConstraints = false
+            NSLayoutConstraint.activate([
+                popupWebView.topAnchor.constraint(equalTo: webView.topAnchor),
+                popupWebView.leadingAnchor.constraint(equalTo: webView.leadingAnchor),
+                popupWebView.trailingAnchor.constraint(equalTo: webView.trailingAnchor),
+                popupWebView.bottomAnchor.constraint(equalTo: webView.bottomAnchor)
+            ])
+            return popupWebView
+        }
+        
+        // The rest of your code ...
+        
+        return nil
+    }
     
-        // The rest of your code ... 
-
-		return nil
-	}
-
-	func webViewDidClose(_ webView: WKWebView) {
-		webView.removeFromSuperview()
-	}
+    func webViewDidClose(_ webView: WKWebView) {
+        webView.removeFromSuperview()
+    }
 }
 ```
